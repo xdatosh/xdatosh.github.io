@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+li{
+    list-style-type: square;
+    margin: 10px;
+}
+a{
+    font-weight: bold;
+}
+p.sample img {
+    width: 150px;  /* ???150px? */
+}
+.face{
+    color: green;
+}
+.back{
+    color: red;
+    opacity:0.4; 
+}
+.gmap {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    }
+    .gmap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    }
